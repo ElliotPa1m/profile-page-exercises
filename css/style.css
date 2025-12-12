@@ -1,0 +1,46 @@
+body {
+    background-color: cornsilk;
+    font-family: 'Courier New', monospace;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#profile-page {
+    width: 800px; margin:auto
+}
+
+.cv-section {
+    border: 5px groove #aaba9e;
+    padding: 1px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #dbe1bc;
+}
+
+.cv-section h2{
+    margin-left: 20px;
+}
+.information{
+    border: 5px groove #aaba9e;
+    border-radius: 5px;
+    background-color: #dbe1bc;
+}
+
+
+ul li {
+    color: black;
+}
+
+a:hover {
+    color:darkred;
+}
+
+.profile-image {
+    display: block;
+    margin:0 auto;
+    border: 5px groove #aaba9e;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
