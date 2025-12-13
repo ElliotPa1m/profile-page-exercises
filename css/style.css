@@ -1,6 +1,9 @@
 body {
     background-color: cornsilk;
-    font-family: 'Courier New', monospace;
+    margin: 0;
+    margin: auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
 }
 
 .text-center{
@@ -19,8 +22,21 @@ body {
     background-color: #dbe1bc;
 }
 
+section{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+
+.link-design{
+    border: 5px groove #aaba9e;
+    border-radius: 5px;
+    background-color: #dbe1bc;
+}
+
 .cv-section h2{
     margin-left: 20px;
+    margin-right: 20px;
 }
 .information{
     border: 5px groove #aaba9e;
@@ -47,4 +63,14 @@ a:hover {
 
 .erfarenheter-design{
     border:groove #aaba9e;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.utbildning-design{
+    margin-right: 20px;
+}
+
+ul{
+    text-align: left;
 }
