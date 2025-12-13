@@ -26,6 +26,7 @@ section{
     display: flex;
     flex-wrap: row wrap;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .link-design{
@@ -73,4 +74,10 @@ a:hover {
 
 ul{
     text-align: left;
+}
+
+.button-design{
+    border: 5px groove #aaba9e;
+    border-radius: 5px;
+    background-color: #dbe1bc;
 }
